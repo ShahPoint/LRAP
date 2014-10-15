@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="test_LRAP_Template_WP.test_JS_Data_Table.test_JS_Data_Table, test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">test_LRAP_Template_WP - test_JS_Data_Table</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

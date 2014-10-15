@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="Institution_List_Template_WP" List="113" Url="_catalogs/wp">
+    <File Path="Institution_List_Template_WP\Institution_List_Template_WP.webpart" Url="test_LRAP_Template_WP_Institution_List_Template_WP.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

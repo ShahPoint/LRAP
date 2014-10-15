@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="7b15bba4-1bb5-4ce4-a24e-32964f3da250" Scope="Site" Title="test_LRAP_Template_WP Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Institution_Template_WP\Elements.xml" />
+    <ElementFile Location="Institution_Template_WP\Institution_Template_WP.webpart" />
+    <ElementManifest Location="Institution_List_Template_WP\Elements.xml" />
+    <ElementFile Location="Institution_List_Template_WP\Institution_List_Template_WP.webpart" />
+    <ElementManifest Location="Student_Display_Template_WP\Elements.xml" />
+    <ElementFile Location="Student_Display_Template_WP\Student_Display_Template_WP.webpart" />
+    <ElementManifest Location="VisualWebPart1\Elements.xml" />
+    <ElementFile Location="VisualWebPart1\VisualWebPart1.webpart" />
+    <ElementManifest Location="Student_List_Template_WP\Elements.xml" />
+    <ElementFile Location="Student_List_Template_WP\Student_List_Template_WP.webpart" />
+    <ElementManifest Location="test_JS_Data_Table\Elements.xml" />
+    <ElementFile Location="test_JS_Data_Table\test_JS_Data_Table.webpart" />
+  </ElementManifests>
+</Feature>

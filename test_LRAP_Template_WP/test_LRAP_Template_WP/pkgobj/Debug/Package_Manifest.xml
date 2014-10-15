@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="473159c0-bc23-4d1d-9689-3715d2375751" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="test_LRAP_Template_WP.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" Namespace="test_LRAP_Template_WP.Institution_Template_WP" TypeName="*" />
+        <SafeControl Assembly="test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" Namespace="test_LRAP_Template_WP.Institution_List_Template_WP" TypeName="*" />
+        <SafeControl Assembly="test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" Namespace="test_LRAP_Template_WP.Student_Display_Template_WP" TypeName="*" />
+        <SafeControl Assembly="test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" Namespace="test_LRAP_Template_WP.VisualWebPart1" TypeName="*" />
+        <SafeControl Assembly="test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" Namespace="test_LRAP_Template_WP.Student_List_Template_WP" TypeName="*" />
+        <SafeControl Assembly="test_LRAP_Template_WP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ea45007b5501931" Namespace="test_LRAP_Template_WP.test_JS_Data_Table" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\test_LRAP_Template_WP\Student_Display_Template_WP\Student_Display_Template_WPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\test_LRAP_Template_WP\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\test_LRAP_Template_WP\Student_List_Template_WP\Student_List_Template_WPUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\test_LRAP_Template_WP\test_JS_Data_Table\test_JS_Data_TableUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="test_LRAP_Template_WP_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

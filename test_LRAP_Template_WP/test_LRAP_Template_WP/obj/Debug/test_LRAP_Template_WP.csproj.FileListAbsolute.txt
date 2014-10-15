@@ -1,0 +1,9 @@
+C:\Users\lrapadmin\documents\visual studio 2013\Projects\test_LRAP_Template_WP\test_LRAP_Template_WP\bin\Debug\test_LRAP_Template_WP.dll
+C:\Users\lrapadmin\documents\visual studio 2013\Projects\test_LRAP_Template_WP\test_LRAP_Template_WP\bin\Debug\test_LRAP_Template_WP.pdb
+C:\Users\lrapadmin\documents\visual studio 2013\Projects\test_LRAP_Template_WP\test_LRAP_Template_WP\obj\Debug\test_LRAP_Template_WP.dll
+C:\Users\lrapadmin\documents\visual studio 2013\Projects\test_LRAP_Template_WP\test_LRAP_Template_WP\obj\Debug\test_LRAP_Template_WP.pdb
+C:\Users\lrapadmin\Desktop\test_LRAP_Template_WP\test_LRAP_Template_WP\bin\Debug\test_LRAP_Template_WP.dll
+C:\Users\lrapadmin\Desktop\test_LRAP_Template_WP\test_LRAP_Template_WP\bin\Debug\test_LRAP_Template_WP.pdb
+C:\Users\lrapadmin\Desktop\test_LRAP_Template_WP\test_LRAP_Template_WP\obj\Debug\test_LRAP_Template_WP.csprojResolveAssemblyReference.cache
+C:\Users\lrapadmin\Desktop\test_LRAP_Template_WP\test_LRAP_Template_WP\obj\Debug\test_LRAP_Template_WP.dll
+C:\Users\lrapadmin\Desktop\test_LRAP_Template_WP\test_LRAP_Template_WP\obj\Debug\test_LRAP_Template_WP.pdb

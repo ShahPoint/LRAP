@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FC17493-06AC-4620-84E7-93A2D3CAB753}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>test_LRAP_Template_WP</RootNamespace>
+    <AssemblyName>test_LRAP_Template_WP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Institution_List_Template_WP\Institution_List_Template_WP.ascx.cs">
+      <DependentUpon>Institution_List_Template_WP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Institution_List_Template_WP\Institution_List_Template_WP.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institution_List_Template_WP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Institution_Template_WP\Institution_Template_WP.ascx.cs">
+      <DependentUpon>Institution_Template_WP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Institution_Template_WP\Institution_Template_WP.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Institution_Template_WP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student_Display_Template_WP\Student_Display_Template_WP.cs" />
+    <Compile Include="Student_Display_Template_WP\Student_Display_Template_WPUserControl.ascx.cs">
+      <DependentUpon>Student_Display_Template_WPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_Display_Template_WP\Student_Display_Template_WPUserControl.ascx.designer.cs">
+      <DependentUpon>Student_Display_Template_WPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_List_Template_WP\Student_List_Template_WP.cs" />
+    <Compile Include="Student_List_Template_WP\Student_List_Template_WPUserControl.ascx.cs">
+      <DependentUpon>Student_List_Template_WPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Student_List_Template_WP\Student_List_Template_WPUserControl.ascx.designer.cs">
+      <DependentUpon>Student_List_Template_WPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test_JS_Data_Table\test_JS_Data_Table.cs" />
+    <Compile Include="test_JS_Data_Table\test_JS_Data_TableUserControl.ascx.cs">
+      <DependentUpon>test_JS_Data_TableUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test_JS_Data_Table\test_JS_Data_TableUserControl.ascx.designer.cs">
+      <DependentUpon>test_JS_Data_TableUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualWebPart1\VisualWebPart1.cs" />
+    <Compile Include="VisualWebPart1\VisualWebPart1UserControl.ascx.cs">
+      <DependentUpon>VisualWebPart1UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisualWebPart1\VisualWebPart1UserControl.ascx.designer.cs">
+      <DependentUpon>VisualWebPart1UserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{b7c7cbd6-dcc2-4b81-b90e-7665746a0e14}</FeatureId>
+    </None>
+    <None Include="Institution_List_Template_WP\Institution_List_Template_WP.webpart" />
+    <None Include="Institution_List_Template_WP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8493b12f-ace7-4854-b914-2871cd5334cb}</SharePointProjectItemId>
+    </None>
+    <None Include="Institution_Template_WP\Institution_Template_WP.webpart" />
+    <None Include="Institution_Template_WP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{67a96a8b-09c6-4e4c-85af-6686b413723a}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{473159c0-bc23-4d1d-9689-3715d2375751}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Student_Display_Template_WP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ca3de2be-2aa8-44c1-b72f-108858ea9731}</SharePointProjectItemId>
+    </None>
+    <None Include="Student_Display_Template_WP\Student_Display_Template_WP.webpart" />
+    <None Include="Student_List_Template_WP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a3dfba87-62ff-4be2-9678-6e76919ffb04}</SharePointProjectItemId>
+    </None>
+    <None Include="Student_List_Template_WP\Student_List_Template_WP.webpart" />
+    <None Include="test_JS_Data_Table\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7ffcd305-3c82-442b-9dc9-f5176e3ff20e}</SharePointProjectItemId>
+    </None>
+    <None Include="test_JS_Data_Table\test_JS_Data_Table.webpart" />
+    <None Include="VisualWebPart1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8602249c-27e4-4615-a70c-4921c5c1f91e}</SharePointProjectItemId>
+    </None>
+    <None Include="VisualWebPart1\VisualWebPart1.webpart">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\typings\typescript-services\typescriptServices.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Institution_List_Template_WP\Elements.xml" />
+    <Content Include="Institution_List_Template_WP\Institution_List_Template_WP.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Institution_List_Template_WP.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Institution_Template_WP\Elements.xml" />
+    <Content Include="Institution_Template_WP\Institution_Template_WP.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>Institution_Template_WP.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Student_Display_Template_WP\Elements.xml" />
+    <Content Include="Student_Display_Template_WP\Student_Display_Template_WPUserControl.ascx" />
+    <Content Include="Student_List_Template_WP\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Student_List_Template_WP\Student_List_Template_WPUserControl.ascx" />
+    <Content Include="test_JS_Data_Table\Elements.xml" />
+    <Content Include="test_JS_Data_Table\test_JS_Data_TableUserControl.ascx" />
+    <Content Include="VisualWebPart1\Elements.xml" />
+    <Content Include="VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

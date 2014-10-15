@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="Student_Display_Template_WPUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Student_Display_Template_WP\" Type="ElementManifest" />
+    <ProjectItemFile Source="Student_Display_Template_WP.webpart" Target="Student_Display_Template_WP\" Type="ElementFile" />
+    <ProjectItemFile Source="Student_Display_Template_WPUserControl.ascx" Target="CONTROLTEMPLATES\test_LRAP_Template_WP\Student_Display_Template_WP\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="test_LRAP_Template_WP.Student_Display_Template_WP" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

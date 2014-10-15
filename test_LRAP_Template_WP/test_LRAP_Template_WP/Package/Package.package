@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="473159c0-bc23-4d1d-9689-3715d2375751" solutionId="473159c0-bc23-4d1d-9689-3715d2375751" resetWebServer="false" sharePointProductVersion="15.0" name="test_LRAP_Template_WP" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b7c7cbd6-dcc2-4b81-b90e-7665746a0e14" />
+  </features>
+</package>

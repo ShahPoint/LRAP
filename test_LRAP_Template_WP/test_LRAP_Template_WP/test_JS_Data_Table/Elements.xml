@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="test_JS_Data_Table" List="113" Url="_catalogs/wp">
+    <File Path="test_JS_Data_Table\test_JS_Data_Table.webpart" Url="test_LRAP_Template_WP_test_JS_Data_Table.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

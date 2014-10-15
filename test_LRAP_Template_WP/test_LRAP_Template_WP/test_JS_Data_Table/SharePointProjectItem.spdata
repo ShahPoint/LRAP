@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="test_JS_Data_TableUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="test_JS_Data_Table\" Type="ElementManifest" />
+    <ProjectItemFile Source="test_JS_Data_Table.webpart" Target="test_JS_Data_Table\" Type="ElementFile" />
+    <ProjectItemFile Source="test_JS_Data_TableUserControl.ascx" Target="CONTROLTEMPLATES\test_LRAP_Template_WP\test_JS_Data_Table\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="test_LRAP_Template_WP.test_JS_Data_Table" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
