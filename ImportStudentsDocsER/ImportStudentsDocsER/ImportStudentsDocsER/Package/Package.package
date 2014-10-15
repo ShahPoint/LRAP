@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="583f4712-40dd-43a0-8b9b-c52d501542e7" solutionId="583f4712-40dd-43a0-8b9b-c52d501542e7" resetWebServer="false" sharePointProductVersion="15.0" name="ImportStudentsDocsER" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="5d2e28d3-fb35-4221-9147-92ac17768575" />
+  </features>
+</package>

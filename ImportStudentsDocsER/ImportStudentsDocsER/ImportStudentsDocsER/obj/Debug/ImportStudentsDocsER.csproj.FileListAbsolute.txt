@@ -1,0 +1,10 @@
+c:\users\administrator\documents\visual studio 2013\Projects\ImportStudentsDocsER\ImportStudentsDocsER\bin\Debug\ImportStudentsDocsER.dll
+c:\users\administrator\documents\visual studio 2013\Projects\ImportStudentsDocsER\ImportStudentsDocsER\bin\Debug\ImportStudentsDocsER.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\ImportStudentsDocsER\ImportStudentsDocsER\obj\Debug\ImportStudentsDocsER.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2013\Projects\ImportStudentsDocsER\ImportStudentsDocsER\obj\Debug\ImportStudentsDocsER.dll
+c:\users\administrator\documents\visual studio 2013\Projects\ImportStudentsDocsER\ImportStudentsDocsER\obj\Debug\ImportStudentsDocsER.pdb
+\\psf\Home\Downloads\ImportStudentsDocsER\ImportStudentsDocsER\ImportStudentsDocsER\bin\Debug\ImportStudentsDocsER.dll
+\\psf\Home\Downloads\ImportStudentsDocsER\ImportStudentsDocsER\ImportStudentsDocsER\bin\Debug\ImportStudentsDocsER.pdb
+\\psf\Home\Downloads\ImportStudentsDocsER\ImportStudentsDocsER\ImportStudentsDocsER\obj\Debug\ImportStudentsDocsER.csprojResolveAssemblyReference.cache
+\\psf\Home\Downloads\ImportStudentsDocsER\ImportStudentsDocsER\ImportStudentsDocsER\obj\Debug\ImportStudentsDocsER.dll
+\\psf\Home\Downloads\ImportStudentsDocsER\ImportStudentsDocsER\ImportStudentsDocsER\obj\Debug\ImportStudentsDocsER.pdb

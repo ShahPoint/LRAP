@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="101">
+      <Receiver>
+        <Name>ImportStudentDocsItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>ImportStudentsDocsER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d97671e770bf4f9f</Assembly>
+        <Class>ImportStudentsDocsER.ImportStudentDocs.ImportStudentDocs</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ImportStudentDocsItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>ImportStudentsDocsER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d97671e770bf4f9f</Assembly>
+        <Class>ImportStudentsDocsER.ImportStudentDocs.ImportStudentDocs</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ImportStudentDocsItemCheckingIn</Name>
+        <Type>ItemCheckingIn</Type>
+        <Assembly>ImportStudentsDocsER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d97671e770bf4f9f</Assembly>
+        <Class>ImportStudentsDocsER.ImportStudentDocs.ImportStudentDocs</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ImportStudentDocsItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>ImportStudentsDocsER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d97671e770bf4f9f</Assembly>
+        <Class>ImportStudentsDocsER.ImportStudentDocs.ImportStudentDocs</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ImportStudentDocsItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>ImportStudentsDocsER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d97671e770bf4f9f</Assembly>
+        <Class>ImportStudentsDocsER.ImportStudentDocs.ImportStudentDocs</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>ImportStudentDocsItemCheckedIn</Name>
+        <Type>ItemCheckedIn</Type>
+        <Assembly>ImportStudentsDocsER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d97671e770bf4f9f</Assembly>
+        <Class>ImportStudentsDocsER.ImportStudentDocs.ImportStudentDocs</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

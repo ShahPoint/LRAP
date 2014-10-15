@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="b3e88d75-69c8-4693-a887-4bfa47426d68" Scope="Web" Title="ImportStudentsDocsER Feature1">
+  <ElementManifests>
+    <ElementManifest Location="ImportStudentDocs\Elements.xml" />
+  </ElementManifests>
+</Feature>
