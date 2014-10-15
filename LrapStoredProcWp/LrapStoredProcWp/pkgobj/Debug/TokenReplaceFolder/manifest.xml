@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="c4a1d6fb-3442-4147-bcce-39a54ff80a71" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="LrapStoredProcWp.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="LrapStoredProcWp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a06fbec9714a5141" Namespace="LrapStoredProcWp.ExecuteStoredProc" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\LrapStoredProcWp\ExecuteStoredProc\ExecuteStoredProcUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="LrapStoredProcWp_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

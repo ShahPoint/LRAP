@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c4a1d6fb-3442-4147-bcce-39a54ff80a71" solutionId="c4a1d6fb-3442-4147-bcce-39a54ff80a71" resetWebServer="false" sharePointProductVersion="15.0" name="LrapStoredProcWp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="1a6516dc-f95d-419c-94ec-bf4e9586f5e1" />
+  </features>
+</package>

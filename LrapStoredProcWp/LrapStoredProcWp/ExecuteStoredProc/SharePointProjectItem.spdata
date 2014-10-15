@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="ExecuteStoredProcUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ExecuteStoredProc\" Type="ElementManifest" />
+    <ProjectItemFile Source="ExecuteStoredProc.webpart" Target="ExecuteStoredProc\" Type="ElementFile" />
+    <ProjectItemFile Source="ExecuteStoredProcUserControl.ascx" Target="CONTROLTEMPLATES\LrapStoredProcWp\ExecuteStoredProc\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="LrapStoredProcWp.ExecuteStoredProc" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

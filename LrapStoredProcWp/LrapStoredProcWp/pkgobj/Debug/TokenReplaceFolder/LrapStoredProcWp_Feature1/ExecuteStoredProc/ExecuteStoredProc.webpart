@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="LrapStoredProcWp.ExecuteStoredProc.ExecuteStoredProc, LrapStoredProcWp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a06fbec9714a5141" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">LrapStoredProcWp - ExecuteStoredProc</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

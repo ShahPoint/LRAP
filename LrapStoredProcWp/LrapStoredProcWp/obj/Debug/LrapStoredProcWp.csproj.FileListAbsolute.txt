@@ -1,0 +1,5 @@
+c:\users\lrapadmin\documents\visual studio 2013\Projects\LrapStoredProcWp\LrapStoredProcWp\bin\Debug\LrapStoredProcWp.dll
+c:\users\lrapadmin\documents\visual studio 2013\Projects\LrapStoredProcWp\LrapStoredProcWp\bin\Debug\LrapStoredProcWp.pdb
+c:\users\lrapadmin\documents\visual studio 2013\Projects\LrapStoredProcWp\LrapStoredProcWp\obj\Debug\LrapStoredProcWp.csprojResolveAssemblyReference.cache
+c:\users\lrapadmin\documents\visual studio 2013\Projects\LrapStoredProcWp\LrapStoredProcWp\obj\Debug\LrapStoredProcWp.dll
+c:\users\lrapadmin\documents\visual studio 2013\Projects\LrapStoredProcWp\LrapStoredProcWp\obj\Debug\LrapStoredProcWp.pdb

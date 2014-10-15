@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="632aa186-f777-4fa5-ab42-772e08939714" Scope="Site" Title="LrapStoredProcWp Feature1">
+  <ElementManifests>
+    <ElementManifest Location="ExecuteStoredProc\Elements.xml" />
+    <ElementFile Location="ExecuteStoredProc\ExecuteStoredProc.webpart" />
+  </ElementManifests>
+</Feature>
